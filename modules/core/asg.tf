@@ -25,7 +25,6 @@ resource "aws_launch_configuration" "example" {
   image_id = data.aws_ami.amazon_linux.id
   instance_type = "t2.micro"
 
-  # import this later via data source
   security_groups = [ aws_security_group.example.id ]
 
   lifecycle {
