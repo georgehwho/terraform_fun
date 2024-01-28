@@ -3,6 +3,6 @@ locals {
 }
 
 # if this was an example app I'd add common data sources and resources like:
-# aws_region
-# ecr repo
+# commonly used strings used like aws_partition and aws_current
+# ecr repo to hold images from ci/cd
 # secrets manager stuff
