@@ -1,5 +1,9 @@
 locals {
-  app = "example"
+  app = "core"
+
+  app_pascal_case = "Core"
+
+  app_kebab_case = "core"
 }
 
 # if this was an example app I'd add common data sources and resources like:

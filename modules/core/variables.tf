@@ -18,3 +18,7 @@ variable "subnet_ids" {
   description = "List of subnet IDs in which the instances will be launched"
   type        = list(string)
 }
+
+variable "s3_bucket_arn" {
+  description = "ARN of the S3 bucket"
+}
