@@ -40,7 +40,7 @@ resource "aws_s3_bucket_versioning" "example" {
   }
 }
 
-# Configure ownership controls for the S3 bucket
+# Disable ACLs
 resource "aws_s3_bucket_ownership_controls" "example" {
   bucket = aws_s3_bucket.example.id
 
