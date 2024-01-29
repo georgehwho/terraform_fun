@@ -21,3 +21,5 @@ variable "subnet_ids" {
 variable "s3_bucket_arn" {
   description = "ARN of the S3 bucket"
 }
+
+# could add more variables here to add more customization to the the modules but for the sake of take home I'll leave it minimal.
