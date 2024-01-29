@@ -26,6 +26,7 @@ resource "aws_launch_configuration" "example" {
   instance_type = "t2.micro"
 
   security_groups = [ aws_security_group.example.id ]
+  iam_instance_profile = aws_iam_role.ec2_s3_role.name
 
   lifecycle {
     create_before_destroy = true
