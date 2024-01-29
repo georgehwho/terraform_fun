@@ -1,4 +1,3 @@
-# modules/asg/main.tf
 resource "aws_autoscaling_group" "example" {
   name                 = "example"
   max_size             = var.max_size

@@ -1,4 +1,3 @@
-# modules/asg/variables.tf
 variable "desired_capacity" {
   description = "The desired number of EC2 instances in the Auto Scaling Group"
   type        = number
